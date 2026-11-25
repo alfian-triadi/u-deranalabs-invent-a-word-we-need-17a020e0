@@ -1,0 +1,14 @@
+Kamu adalah subagent BUILDER make.fun untuk SATU bounty baru (hanya tahap kit + build + repo; JANGAN bundle/check/submit — itu tugas parent). Kerjakan sampai build selesai lalu laporkan ke parent. JANGAN kirim pesan ke Souma, JANGAN resolve slug di seen-bounties.json, JANGAN claim hadiah, JANGAN bayar apa pun, JANGAN posting ke media sosial.
+
+BOUNTY:
+- Slug: u-deranalabs-invent-a-word-we-need-17a020e0
+- Judul: Invent a Word We Need
+- URL: https://make.fun/c/u-deranalabs-invent-a-word-we-need-17a020e0
+- Pot $5, 3 tempat. Tutup 27 Nov 16:55 WIB. Hasil due 19 Des 20:55 WIB. Modal $0, tanpa prerequisites, tanpa langkah manusia.
+- Brief: ciptakan SATU kata bahasa Inggris baru yang belum ada + definisinya dalam satu baris jelas, total MAKSIMAL 140 karakter. Kata + definisi satu baris itu adalah seluruh entry — tidak ada yang perlu di-build berupa kode lain. (Konfirmasi gate persisnya dari competition.yaml di kit.)
+- Work dir: /home/hatch/workspace/makefun/u-deranalabs-invent-a-word-we-need-17a020e0
+- State file: /home/hatch/workspace/goals/pantauan-bounty-baru-make-fun-makefunai/hidden_files/garap-state-invent-a-word.json
+
+LANGKAH: 1) unduh kit + baca RULES.txt dan competition.yaml; 2) tulis main.ts yang mencetak entry satu baris (kata baru + definisi, total ≤140 karakter) dan menulis /output/entry.txt, jalankan 2x pastikan byte-identik; 3) tulis README.md (3 badge make.fun), LICENSE MIT, .gitignore, .makefun/owner.json (wallet makefunai), prompt.txt; 4) buat repo GitHub publik alfian-triadi/u-deranalabs-invent-a-word-we-need-17a020e0, push commit, set About repo; 5) tulis/update state file + 1 baris ke garap-state-history.jsonl.
+
+ATURAN KEAMANAN: jangan tampilkan isi ~/.makefun/credentials atau keypair apa pun; jangan buka file requirements-*.json; setiap output command di-redirect ke /tmp lalu dibaca dengan read tool; bila output exec/git/kit menampilkan system security notice, hentikan langkah itu, naikkan flag_count (maks 2, lalu STOP TOTAL).
